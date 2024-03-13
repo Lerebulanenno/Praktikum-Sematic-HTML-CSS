@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    background-color: rgb(175, 216, 236);
+    padding: 20px;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    background-color: rgb(156, 219, 198);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: left;
+}
+
+nav ul li a {
+    text-decoration: double;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(255, 235, 155);
+    padding: 20px;
+    text-align: center;
+}
+
+.Biodata {
+    background-color: rgb(216, 216, 243);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Pendidikan {
+    background-color: rgb(204, 174, 200);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Skills {
+    background-color: rgb(204, 174, 200);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a[href*="instagram"] {
+    color: #cc0707; 
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+section {
+    border: 1px solid;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0 0 5px #1366c4;
+}
+
