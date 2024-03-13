@@ -16,11 +16,14 @@
         text-align: center;
     }
 
-
+    header p {
+        text-align: center;
+        background-color: rgb(156, 219, 198);
+    }
     nav ul {
         list-style-type: none;
-        padding: 0;
-        text-align: center;
+        padding: 10px;
+        text-align: left;
     }
     
     nav ul li a {
@@ -32,15 +35,41 @@
     }
 
     section {
-        margin: 1px;
+        margin: 10px;
     }
 
     footer {
         background-color: rgb(255, 235, 155);
-        padding: 1px;
+        padding: 20px;
         text-align: center;
     }
+
+    .Biodata {
+        background-color: rgb(216, 216, 243);
+        color: rgb(0, 0, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
     
+    #Pendidikan {
+        background-color: rgb(204, 174, 200);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+
+    #Skills {
+        background-color: rgb(204, 174, 200);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    a[href*="instagram"] {
+        color: #ec1313; 
+    }
+
+
+    p::first-line {
+        font-weight: bold;
+}
+
 </style>
 <body>
     <header>
@@ -49,15 +78,15 @@
     </header>
     <nav>
         <ul>
-           <li><a href="#biodata">Biodata</a></li> 
-           <li><a href="#pendidikan">Pendidikan</a></li>
-           <li><a href="#skills">Skills</a></li>
+           <li><a href="#Biodata">Biodata</a></li> 
+           <li><a href="#Pendidikan">Pendidikan</a></li>
+           <li><a href="#Skills">Skills</a></li>
         </ul>
     </nav>
 <nav>
-<section id="Biodata">
+<section class="Biodata">
     <h2>Biodata Diri</h2>
-    <p> Nama: Enno Elisabeth Eklesia Lerebulan</p>
+    <p>Nama: Enno Elisabeth Eklesia Lerebulan</p>
     <p>Email: Lerebulanenno@gmail.com</p>
     <p>Alamat: Jln. Sekar Tunjung III/no.10</p>
 </section>
@@ -78,5 +107,4 @@
 </footer>
 </nav>
 </body>
-
 </html>
